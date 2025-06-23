@@ -135,6 +135,8 @@ function updateTotals() {
             total += Number(value)
         }
 
+        expensesTotal.textContent = total
+
     } catch (error) {
         console.log(error)
         alert("Não foi possível atualizar os totais")
